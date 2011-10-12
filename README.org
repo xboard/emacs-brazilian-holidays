@@ -1,0 +1,8 @@
+#+TITLE: Calendário de feriados Brasileiros (nacionais e estaduais)
+#+AUTHOR: Flavio Regis de Arruda
+
+* Configuração
+  Adicione a linha
+  : (load "/caminho/até/arquivo/brazilian-holidays.el")
+  ao seu arquivo =.emacs=.
+
