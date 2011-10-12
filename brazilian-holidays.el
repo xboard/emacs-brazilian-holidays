@@ -43,12 +43,12 @@
 (setq feriados-estaduais-al
       `((holiday-fixed 6 24 "São João")
 (holiday-fixed 6 29 "São Pedro")
-(holiday-fixed 9 16 "Emancipação Política")
+(holiday-fixed 9 16 "Emancipação Política de Alagoas")
 (holiday-fixed 11 20 "Dia da Conciência Negra")))
 
 (setq feriados-estaduais-ap
       `((holiday-fixed 3 19 "São José")
-        (holiday-fixed 10 5 "Criação do Estado")
+        (holiday-fixed 10 5 "Criação do Estado do Amapá")
         (holiday-fixed 11 20 "Dia da Conciência Negra")))
 
 (setq feriados-estaduais-am
@@ -61,7 +61,7 @@
       `((holiday-fixed 7 2 "Independência da Bahia")))
 
 (setq feriados-estaduais-df
-      `((holiday-fixed 4 21 "Fundação da Bahia")
+      `((holiday-fixed 4 21 "Fundação de Brasília")
         (holiday-fixed 11 30 "Dia do Evangélico")))
 
 (setq feriados-estaduais-es
@@ -81,7 +81,7 @@
       `((holiday-fixed 11 20 "Dia da Conciência Negra")))
 
 (setq feriados-estaduais-ms
-      `((holiday-fixed 10 11 "Criação do Estado")
+      `((holiday-fixed 10 11 "Criação do Estado de MS")
         (holiday-fixed 11 20 "Dia da Conciência Negra")))
 
 (setq feriados-estaduais-pa
@@ -90,7 +90,7 @@
         (holiday-fixed 12 8 "Nossa Senhora da Conceição")))
 
 (setq feriados-estaduais-pb
-      `((holiday-fixed 8 5 "Fundação do Estado")
+      `((holiday-fixed 8 5 "Fundação do Estado da Paraíba")
         (holiday-fixed 7 26 "Memória do Ex-Presidente João Pessoa")))
 
 (setq feriados-estaduais-pr
@@ -124,31 +124,27 @@
         (holiday-fixed 9 20 "Revolução Farropilha")))
 
 (setq feriados-estaduais-ro
-      `((holiday-fixed 1 4 "Criação do Estado")))
+      `((holiday-fixed 1 4 "Criação do Estado de Rondônia")))
 
 (setq feriados-estaduais-rr
-      `((holiday-fixed 10 5 "Criação do Estado")
+      `((holiday-fixed 10 5 "Criação do Estado de Roraima")
         (holiday-fixed 12 8 "Nossa Senhora da Conceição")))
 
 (setq feriados-estaduais-sc
-      `((holiday-fixed 8 11 "Criação da Capitania")))
+      `((holiday-fixed 8 11 "Criação da Capitania de SC")))
 
 (setq feriados-estaduais-sp
       `((holiday-fixed 7 9 "Revolução Constitucionalista de 1932")
         (holiday-fixed 11 20 "Dia da Conciência Negra")))
 
 (setq feriados-estaduais-se
-      `((holiday-fixed 7 8 "Autonomia Política")))
+      `((holiday-fixed 7 8 "Autonomia Política de Sergipe")))
 
 (setq feriados-estaduais-to
-      `((holiday-fixed 10 5 "Criação do Estado")
-        (holiday-fixed 3 18 "Autonomia do Estado")
+      `((holiday-fixed 10 5 "Criação do Estado de Tocantins")
+        (holiday-fixed 3 18 "Autonomia do Estado de Tocantins")
         (holiday-fixed 9 8  "Nossa Senhora da Natividade")))
 
-(setq feriados-estaduais-to
-      `((holiday-fixed 10 5 "Criação do Estado")
-        (holiday-fixed 3 18 "Autonomia do Estado")
-        (holiday-fixed 9 8  "Nossa Senhora da Natividade")))
 
 
 (setq calendar-holidays (append feriados-nacionais-fixos feriados-nacionais-moveis feriados-estaduais-sp))
