@@ -2,8 +2,8 @@
 #+AUTHOR: Flavio Regis de Arruda
 
 * Configuração
-1. Adicione a linha
+- Adicione a linha
   : (load "/caminho/até/arquivo/brazilian-holidays.el")
   ao seu arquivo =.emacs= ou =.init.d/custom.el= se estiver 
-  usando um starter-kit.
-2. Reinicie o Emacs.
+  usando um [[https://github.com/technomancy/emacs-starter-kit][starter-kit]].
+- Reinicie o Emacs.
