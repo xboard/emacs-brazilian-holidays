@@ -1,3 +1,9 @@
+;; Calendário de feriados (nacionais e estaduais) para Emacs.
+;; 
+;; Brazilian Holidays for Emacs
+;; author: Flavio Regis de Arruda
+;; licenses : GPLv3 - http://www.gnu.org/licenses/quick-guide-gplv3.html
+
 (eval-when-compile
   (require 'calendar)
   (require 'holidays))
