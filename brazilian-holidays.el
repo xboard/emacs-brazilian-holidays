@@ -12,7 +12,7 @@
 
 (setq calendar-week-start-day 1
       calendar-day-name-array ["domingo" "segunda" "terça" "quarta" "quinta" "sexta" "sábado"]
-      calendar-month-name-array ["janeiro" "fevereiro" "março" "abril" "maio" "junho" "julho" "agosto" "setembro" "outubro" "novembro" "dezembro"])
+      calendar-month-name-array ["Janeiro" "Fevereiro" "Março" "Abril" "Maio" "Junho" "Julho" "Agosto" "Setembro" "Outubro" "Novembro" "Dezembro"])
 
 
 (setq feriados-nacionais-fixos
