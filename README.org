@@ -6,4 +6,6 @@
   : (load "/caminho/até/arquivo/brazilian-holidays.el")
   ao seu arquivo =.emacs= ou =.init.d/custom.el= se estiver 
   usando um [[https://github.com/technomancy/emacs-starter-kit][starter-kit]].
+- No final do arquivo =brazilian-holidays.el= altere o trecho
+  "feriados-estaduais-sp" (ref. a São Paulo) pela sigla do seu Estado.
 - Reinicie o Emacs.

@@ -147,4 +147,7 @@
 
 
 
-(setq calendar-holidays (append feriados-nacionais-fixos feriados-nacionais-moveis feriados-estaduais-sp))
+(setq calendar-holidays
+      (append feriados-nacionais-fixos
+              feriados-nacionais-moveis
+              feriados-estaduais-sp))
